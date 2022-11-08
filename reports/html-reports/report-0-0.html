@@ -32,15 +32,15 @@
 
         <tr>
             <td>Start</td>
-            <td>2022-11-07T11:54:22.599Z</td>
+            <td>2022-11-08T09:10:24.609Z</td>
         </tr>
         <tr>
             <td>End</td>
-            <td>2022-11-07T11:54:23Z</td>
+            <td>2022-11-08T09:10:27Z</td>
         </tr>
         <tr>
             <td>Duration</td>
-            <td>00:00:01.192</td>
+            <td>00:00:03.059</td>
         </tr>
         <tr>
             <td>Breakdown</td>
@@ -52,9 +52,9 @@
                         <td class='test-fail'>Test Failures</td>
                     </tr>
                     <tr>
+                        <td>5</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
                     </tr>
                 </table>
             </td>
@@ -100,7 +100,7 @@
 <table class="table table-bordered table-suite">
     <tr class="suite-header">
         <td colspan="2"
-            class="suite-fail">
+            class="suite-pass">
             <h3>
                 <span style="margin: 2px; padding: 1px" class="glyphicon glyphicon-chevron-up">&nbsp;</span>pet API testing
             </h3>
@@ -118,21 +118,21 @@
     
         <tr>
             <td>Suite Start</td>
-            <td>Mon Nov 07 2022 13:54:22 GMT+0200 (Восточная Европа, стандартное время)</td>
+            <td>Tue Nov 08 2022 11:10:24 GMT+0200 (Восточная Европа, стандартное время)</td>
         </tr>
         <tr>
             <td>Suite End</td>
-            <td>Mon Nov 07 2022 13:54:23 GMT+0200 (Восточная Европа, стандартное время)</td>
+            <td>Tue Nov 08 2022 11:10:27 GMT+0200 (Восточная Европа, стандартное время)</td>
         </tr>
         <tr>
             <td>Suite Duration</td>
-            <td>00:00:01.140</td>
+            <td>00:00:03.011</td>
         </tr>
 
         
             <tr>
                 <td>Tests</td>
-                <td>2</td>
+                <td>5</td>
             </tr>
             <tr>
                 <td colspan="2">
@@ -143,36 +143,12 @@
             <td>
                 <table class="table table-test">
                     <tr class="test-header">
-                        <td colspan="2" class="test-fail">
+                        <td colspan="2" class="test-pass">
                             <span class="test-expand glyphicon glyphicon-chevron-up">&nbsp;</span>
-                            <span class="error">&#10006;</span>
+                            <span class="success">&#10004;</span>
                             <span class="test-title">gets pets by id</span>
                         </td>
                     </tr>
-                    
-                        
-                            <tr class="test-row expandable-control">
-                                <td colspan="2">
-                                    <p class="pre assert ">
-                                <span style="margin: 2px; padding: 1px"
-                                      class='glyphicon glyphicon-chevron-down'>&nbsp;</span>
-                                        Assertion: expect is not a function
-                                    </p>
-                                </td>
-                            </tr>
-                            
-                                <tr class="test-row">
-                                    <td colspan="2">
-                                        <pre class='pre stack panel'>TypeError: expect is not a function
-    at Context.&lt;anonymous&gt; (C:\Users\kinom\Desktop\Project\wdio-supertest-report\test\specs\main.spec.js:9:15)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</pre>
-                                    </td>
-                                </tr>
-                            
-                        
-                        
-                        
-                        
                     
                 </table>
             </td>
@@ -184,36 +160,63 @@
             <td>
                 <table class="table table-test">
                     <tr class="test-header">
-                        <td colspan="2" class="test-fail">
+                        <td colspan="2" class="test-pass">
                             <span class="test-expand glyphicon glyphicon-chevron-up">&nbsp;</span>
-                            <span class="error">&#10006;</span>
-                            <span class="test-title">gets pets by status</span>
+                            <span class="success">&#10004;</span>
+                            <span class="test-title">gets pets by status sold</span>
                         </td>
                     </tr>
                     
-                        
-                            <tr class="test-row expandable-control">
-                                <td colspan="2">
-                                    <p class="pre assert ">
-                                <span style="margin: 2px; padding: 1px"
-                                      class='glyphicon glyphicon-chevron-down'>&nbsp;</span>
-                                        Assertion: expect is not a function
-                                    </p>
-                                </td>
-                            </tr>
-                            
-                                <tr class="test-row">
-                                    <td colspan="2">
-                                        <pre class='pre stack panel'>TypeError: expect is not a function
-    at Context.&lt;anonymous&gt; (C:\Users\kinom\Desktop\Project\wdio-supertest-report\test\specs\main.spec.js:13:5)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</pre>
-                                    </td>
-                                </tr>
-                            
-                        
-                        
-                        
-                        
+                </table>
+            </td>
+        <tr>
+    </table>
+    
+    <table>
+        <tr>
+            <td>
+                <table class="table table-test">
+                    <tr class="test-header">
+                        <td colspan="2" class="test-pass">
+                            <span class="test-expand glyphicon glyphicon-chevron-up">&nbsp;</span>
+                            <span class="success">&#10004;</span>
+                            <span class="test-title">gets pets by status available</span>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        <tr>
+    </table>
+    
+    <table>
+        <tr>
+            <td>
+                <table class="table table-test">
+                    <tr class="test-header">
+                        <td colspan="2" class="test-pass">
+                            <span class="test-expand glyphicon glyphicon-chevron-up">&nbsp;</span>
+                            <span class="success">&#10004;</span>
+                            <span class="test-title">gets pets by status pending</span>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        <tr>
+    </table>
+    
+    <table>
+        <tr>
+            <td>
+                <table class="table table-test">
+                    <tr class="test-header">
+                        <td colspan="2" class="test-pass">
+                            <span class="test-expand glyphicon glyphicon-chevron-up">&nbsp;</span>
+                            <span class="success">&#10004;</span>
+                            <span class="test-title">gets pets by status pending,available</span>
+                        </td>
+                    </tr>
                     
                 </table>
             </td>
